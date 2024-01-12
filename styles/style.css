@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-openSans:"Open Sans", sans-serif;
+}
+body{
+    background-color: #fff;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1611px;
+}
+.header__group{
+    display: flex;
+}
+.header-top{
+    padding: 19px 0;
+}
+.header_top-text{
+    font-family: var(--font-openSans);
+    font-weight: 600;
+}
+.header_top-nav{
+    margin: 0 146px 0 310px;
+}
+.header-top_list{
+    display: flex;
+    gap: 18px;
+}
+.header_top_list-item{
+    list-style: none;
+}
+.header_top_list-link{
+    color: #898886;
+    font-family: var(--font-openSans);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 16.8px */
+    text-decoration: none;
+}
+.btn-connect{
+    background-color: inherit;
+    border: none;
+    color: #898886;
+    font-family: var(--font-openSans);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 16.8px */
+   
+}
+.btn_register{
+    margin-left: 30px;
+}
